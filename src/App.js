@@ -1,9 +1,11 @@
 import React from 'react';
+import Demo from './Demo';
 
 function App() {
   return (
-    <div className="App">
-      我是react项目
+    <div>
+      <Demo/>
+      <h2>这是一个简单的react项目</h2>
     </div>
   );
 }
