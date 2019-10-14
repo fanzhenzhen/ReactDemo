@@ -8021,7 +8021,7 @@ react-dev-utils@^9.1.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.10.2:
+react-dom@^16.10.2:
   version "16.10.2"
   resolved "https://registry.npm.taobao.org/react-dom/download/react-dom-16.10.2.tgz?cache=0&sync_timestamp=1570137515170&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-dom%2Fdownload%2Freact-dom-16.10.2.tgz#4840bce5409176bc3a1f2bd8cb10b92db452fda6"
   integrity sha1-SEC85UCRdrw6HyvYyxC5LbRS/aY=
@@ -8102,7 +8102,7 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.10.2:
+react@^16.10.2:
   version "16.10.2"
   resolved "https://registry.npm.taobao.org/react/download/react-16.10.2.tgz?cache=0&sync_timestamp=1570137514456&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact%2Fdownload%2Freact-16.10.2.tgz#a5ede5cdd5c536f745173c8da47bda64797a4cf0"
   integrity sha1-pe3lzdXFNvdFFzyNpHvaZHl6TPA=
@@ -9644,7 +9644,7 @@ utils-merge@1.0.1:
   resolved "https://registry.npm.taobao.org/utils-merge/download/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.0.1, uuid@^3.3.2:
+uuid@^3.0.1, uuid@^3.3.2, uuid@^3.3.3:
   version "3.3.3"
   resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
   integrity sha1-RWjwIW54dg7h2/Ok0s9T4iQRKGY=
