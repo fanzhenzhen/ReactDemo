@@ -1,8 +1,7 @@
 import React from 'react';
 import Home from './pages/Home'
 import About from './pages/About'
-import MyNavLink from './component/MyNavLink'
-import {Link,Route,Switch,Redirect} from 'react-router-dom'
+import {Link,Route,Switch,NavLink,Redirect} from 'react-router-dom'
 
 class App extends React.Component{
   render(){
@@ -22,10 +21,9 @@ class App extends React.Component{
               <a className="list-group-item active" href="./home.html">Home</a>*/}
 
               {/*React的写法如下：点击路由导航，实现组件的切换--------定义路由导航*/}
-              {/* <NavLink className='list-group-item' activeClassName='active' to='/home'>Home</NavLink>
-              <NavLink className='list-group-item' activeClassName='active' to='/about'>About</NavLink> */}
-              <MyNavLink to='/about'>About</MyNavLink>
-              <MyNavLink to='/home'>Home</MyNavLink>
+              <NavLink className='list-group-item' activeClassName='active' to='/home'>Home</NavLink>
+              <NavLink className='list-group-item' activeClassName='active' to='/about'>About</NavLink>
+
             </div>
           </div>
           <div className="col-xs-6">
@@ -33,9 +31,8 @@ class App extends React.Component{
               <div className="panel-body">
                   {/*原生的写法是：来到不同的页面去展示不同的内容------定义路由所对应的组件*/}                
                   <Switch>
-                    <Route path ='/about' component={About}/>
-                    <Route path = '/home'component = {Home}/>
-                    <Redirect to='/about'/>
+                    <Route path ='/about' component={Home}/>
+                    <Route path = '/home'component = {About}/>
                   </Switch>
               </div>
             </div>
