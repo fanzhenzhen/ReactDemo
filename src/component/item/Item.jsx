@@ -1,5 +1,5 @@
 import React from 'react'
-import './item.css'
+import './Item.css'
 export default class Item extends React.Component{
     render(){
       let {login,html_url,avatar_url} = this.props
